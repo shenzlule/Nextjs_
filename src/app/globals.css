@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Londrina+Outline&family=Pacifico&family=Playfair+Display&family=Prompt:wght@100;200;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Londrina+Outline&family=Pacifico&family=Prompt:wght@100;200;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +36,164 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+.gryclr{
+  color: rgb(114, 114, 114);
+}
+.wid{
+  width: 27rem;
+}
+.bckClr{
+  background-color: rgb(14, 14, 14);
+}
+
+.header_font{
+  font-family: 'Pacifico', cursive;
+}
+.txtt{
+  font-size: 10px;
+}
+.txtt1{
+  font-size: 5px;
+}
+
+.gradient-button{
+   
+ 
+  background: linear-gradient(to right, rgb(234,147,30), rgb(250,52,5));
+  border: none;
+  border-radius: 23px;
+  color: #fff;
+  cursor: pointer;
+  width: 110px;
+  height: 35px;
+
+  border-left: 4px double white;
+  border-bottom: 4px double white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  text-align: center;
+ 
+}
+
+
+.Brclr{
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 10px;
+}
+
+.BrclrR{
+  border-right: 1px solid rgb(56, 56, 56);
+}
+.BrclrB{
+  border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+
+
+.serColor{
+  color: #e8e8e8;
+}
+
+.buttonServices {
+
+  background-color: rgb(14, 14, 14);
+  border: 1px solid white;
+  border-radius: 23px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-left: 3px double white;
+  border-bottom: 3px double white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  background: rgb(14, 14, 14);
+  text-align: center;
+  width: 110px;
+  margin-top: 15px;
+  margin-right: 10px;
+  height: 35px;
+ 
+
+}
+
+.dd{
+  border: 1px solid orange;
+  border-radius: 50px;
+  
+background-color: transparent;
+width: 60px;
+height: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+z-index: 10;
+}
+
+
+.border_{
+  background-color: rgb(29, 29, 29);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 0.003px solid rgb(87, 86, 86);
+}
+
+.borderCard{
+
+  border-left: 1px solid rgb(249, 144, 46);
+  border-Top: 1px solid rgb(249, 144, 46);
+  border-Right: 1px solid rgb(249, 144, 46);
+  border-bottom: 2px double rgb(249, 144, 46);
+
+
+  
+  
+
+     
+  }
+
+  .form-button{
+   
+    padding: 10px 20px;
+    background: linear-gradient(to right, rgb(234,147,30), rgb(250,52,5));
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .FormInput{
+
+   background-color: rgb(14,14,14,0);
+  border: 1px solid;
+  border-image: linear-gradient(to right, rgb(234, 147, 30), white, rgb(250, 52, 5));
+  border-image-slice: 1;
+
+
+}
+
+
+.FormMassega{
+
+  background-color: rgb(14,14,14,0);
+ border: 1px solid;
+ border-image: linear-gradient(to right, rgb(234, 147, 30), white, rgb(250, 52, 5));
+ border-image-slice: 1;
+
+
+}
+
+.gradient-form-button {
+  display: inline-block;
+  padding: 10px 10px;
+  background: linear-gradient(to right, rgb(234,147,30), rgb(250,52,5));
+  border: none;
+ margin-top: 21px;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  height: 30px;
 }
