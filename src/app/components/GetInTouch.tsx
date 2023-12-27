@@ -6,13 +6,10 @@ const GetInTouch = ( ) =>  {
     return (
 
         
-        <div className="flex h-autp  flex-col justify-items-center items-center ">   
-
+        <div className="flex h-autp  flex-col justify-items-center items-center">   
           <div className="flex flex-col text-center h-auto  items-center">
             <h1 className='text-4xl '>Get in Touch</h1>
-              
             </div> 
-           
             
             <Image
 src="/getin_img.png"

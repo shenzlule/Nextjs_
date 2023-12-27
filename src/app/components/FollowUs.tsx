@@ -10,7 +10,7 @@ const FollowUs = ( ) =>  {
     return (
 
         
-        <div className="flex h-autp px-24 md:px-60 flex-col justify-items-center  items-center sm:py-12    text-white">   
+        <div className="flex h-autp px-24 md:px-60 flex-col justify-items-center  items-center sm:py-12    text-white ">   
 
       
 <form className="md:w-full mx-auto w-full sm:mt-28 z-10">
@@ -67,11 +67,11 @@ const FollowUs = ( ) =>  {
 
 <div className="input_plus_btn z-10 flex flex-row h-8 sm:mt-5">
 
-<input type="text" placeholder="Your Email Here" className="mail"/>
+<input type="text" placeholder="Your Email Here" className="text-xs w-60"/>
 <Image
 src="/arrow.jpg"
 alt=""
-width={40}
+width={50}
 height={40}
 
 />
@@ -80,7 +80,7 @@ height={40}
 
 
         
-   <div className="w-full sm:mt-32  z-10">
+   <div className="w-full sm:mt-72 z-10 ">
 
 <footer className="w-full mt-0">
     <div className="w-full   mx-auto max-w-screen-xl  md:flex md:items-center md:justify-between">

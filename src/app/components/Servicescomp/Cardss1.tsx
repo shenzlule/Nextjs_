@@ -10,7 +10,7 @@ const Cardss1 = ( props :{cardText:string ,cardTitle:string}) =>  {
         
        
 
-<div className="px-2    w-80  py-6 my-3  mx-2 Brclr rounded-lg shadow  ">
+<div className="px-2    w-80  py-6 my-3  mx-2 border__  shadow  ">
     <div  className="flex flex-row justify-between  items-center">
         <div className="flex flex-row   items-center">
 
