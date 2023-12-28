@@ -11,7 +11,7 @@ const FollowUs = ( ) =>  {
     return (
 
         
-        <div className="flex h-auto px-12 sm:px-24 md:px-60 flex-col justify-items-center  items-center sm:py-12    text-white  "   style={{
+        <div className="flex h-auto pl-12 pr-5 sm:px-24 md:px-60 flex-col justify-items-center  items-center sm:py-12    text-white  "   style={{
           backgroundImage: `url(${bg.src})`,
           backgroundRepeat:'no-repeat',
           backgroundSize:'cover',
