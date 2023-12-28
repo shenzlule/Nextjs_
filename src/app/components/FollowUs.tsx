@@ -11,7 +11,7 @@ const FollowUs = ( ) =>  {
     return (
 
         
-        <div className="flex h-autp px-24 md:px-60 flex-col justify-items-center  items-center sm:py-12    text-white  "   style={{
+        <div className="flex h-auto px-12 sm:px-24 md:px-60 flex-col justify-items-center  items-center sm:py-12    text-white  "   style={{
           backgroundImage: `url(${bg.src})`,
           backgroundRepeat:'no-repeat',
           backgroundSize:'cover',
@@ -48,6 +48,11 @@ const FollowUs = ( ) =>  {
   <div className="dd w-12 h-12 sm:w-16 sm:h-16">
  
 <FontAwesomeIcon icon={faTwitter} size="2x" />
+{/* <Image 
+   src={"/twitter.svg"} 
+   width={40}
+   height={} */}
+   {/* alt={""}/> */}
 
   </div>
 
@@ -87,7 +92,7 @@ height={40}
 
 
         
-   <div className="w-full sm:mt-72 z-10 ">
+   <div className="w-full  sm:mt-72 z-10 ">
 
 <footer className="w-full mt-0">
     <div className="w-full   mx-auto max-w-screen-xl  md:flex md:items-center md:justify-between">
