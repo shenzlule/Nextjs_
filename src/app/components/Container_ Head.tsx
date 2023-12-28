@@ -6,7 +6,7 @@ const Container_Head = ( ) =>  {
     return (
 
         
-        <div className="flex flex-col px-32 w-full ">      
+        <div className="flex flex-col px-10 sm:px-32 w-full ">      
           <Header name="input" cast="Fred"/>
 
         </div>

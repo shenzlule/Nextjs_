@@ -4,24 +4,31 @@ import Image  from "next/image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the styles (required)
+import bg from '/public/footerbgs.png'
 
 
 const FollowUs = ( ) =>  {
     return (
 
         
-        <div className="flex h-autp px-24 md:px-60 flex-col justify-items-center  items-center sm:py-12    text-white ">   
+        <div className="flex h-autp px-24 md:px-60 flex-col justify-items-center  items-center sm:py-12    text-white  "   style={{
+          backgroundImage: `url(${bg.src})`,
+          backgroundRepeat:'no-repeat',
+          backgroundSize:'cover',
+          width: '100%',
+          height: '100%',
+        }}>   
 
       
 <form className="md:w-full mx-auto w-full sm:mt-28 z-10">
 <div className="sm:mb-5 flex flex-row">
     
-    <input type="text"  className="  text-sm mr-5 w-full p-2.5 FormInput " placeholder="Name" />
-    <input type="text"  className=" text-sm w-full p-2.5 FormInput" placeholder="Email" />
+    <input type="text"  className="  text-sm mr-5 w-full p-2.5 FormInput h-7 sm:h-auto " placeholder="Name" />
+    <input type="text"  className=" text-sm w-full p-2.5 FormInput h-7 sm:h-auto " placeholder="Email" />
     
   </div>
 
-  <textarea id="message" rows={4} className="FormMassega block sm:p-2.5 w-full text-sm text-gray-900 rounded-lg border " placeholder="Your message"></textarea>
+  <textarea id="message" rows={4} className="FormMassega block text-white sm:p-2.5 w-full text-sm text-gray-900 rounded-lg border h-10 sm:h-auto  " placeholder="Your message"></textarea>
   <button className="gradient-form-button w-full">Send</button>
 </form>
 
@@ -37,20 +44,20 @@ const FollowUs = ( ) =>  {
             height={20}
             src={"/follow_line.png"} alt={""} className="sm:mb-10"/>
 
-<div className=" w-full  justify-around  flex flex-row z-10">
-  <div className="dd">
+<div className=" w-full  justify-around px-12 flex flex-row z-10">
+  <div className="dd w-12 h-12 sm:w-16 sm:h-16">
  
 <FontAwesomeIcon icon={faTwitter} size="2x" />
 
   </div>
 
-  <div className="dd">
+  <div className="dd w-12 h-12 sm:w-16 sm:h-16">
  
 <FontAwesomeIcon icon={faInstagram} size="2x"/>
 
   </div>
 
-  <div className="dd">
+  <div className="dd w-12 h-12 sm:w-16 sm:h-16">
 
 <FontAwesomeIcon icon={faFacebook} size="2x"/>
 
@@ -62,7 +69,7 @@ const FollowUs = ( ) =>  {
 
 </div>
 
-<h3 className='sign  z-10 sm:mt-16'>Sign Up for Newsletter</h3>
+<h3 className='sign  z-10 sm:mt-16 text-sm '>Sign Up for Newsletter</h3>
 
 
 <div className="input_plus_btn z-10 flex flex-row h-8 sm:mt-5">
@@ -101,28 +108,22 @@ height={40}
     </ul>
     </div>
 </footer>
-<div className="flex flex-row justify-between z-10  gryclr sm:mt-10">
-            <ul className="footerlst sm:text-sm text-xs">
+<div className="flex flex-col  sm:flex-row justify-between z-10  gryclr sm:mt-10">
+            <ul className="footerlst sm:text-sm text-xs flex sm:flex-row">
                 <li>Bangadesh Office Address:</li>
-                <li>House #449,Road #31, New DOHS Mohakhali, Dhaka-1206</li>
+                <li>House #449,</li>
+                <li>Road #31,</li>
+                <li>New DOHS Mohakhali,</li>
+                <li>Dhaka-1206</li>
                
             </ul>
 
-            <p>copyright@blogsite</p>
+            <p className="sm:text-lg text-sm">copyright@blogsite</p>
 
 
           </div>
    </div>
-        <Image
-        src='/footerbgs.png'
-        alt=''
-        width={1000}
-        height={1000}
-        // layout="fill"
-        // objectFit="cover"
-
-        className="-z-3  absolute w-full "
-        />
+     
                 </div>
        
     )

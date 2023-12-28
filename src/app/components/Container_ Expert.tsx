@@ -13,7 +13,7 @@ src="/left.png"
 alt=""
 width={50}
 height={10}
-className=" self-center mb-52"/>
+className=" self-center mb-32 sm:mb-52"/>
          <Expert></Expert>
         </div>
        
